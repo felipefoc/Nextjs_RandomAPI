@@ -1,11 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
-import Footer from '../comps/footer'
-import Layout from '../comps/Layout'
-import Navbar from '../comps/navbar'
 import styles from '../styles/Home.module.css'
-import axios from 'axios'
+
 
 export default function Home({data}) {
   return (
